@@ -1,7 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.header-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 52px;
+    background: #fef7f0;
+}
+
+.tel {
+    margin-top: 15px;
+    text-decoration: none;
+    color: #4c6386;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.social-header {
+    margin-top: 10px;
+}
+
+.header-contacts .social-header .img {
+    margin-top: 10px;
+}
+
 body {
-    background-image: url(../img/5d0ba3fee65f010023fa0ada_optimized_1920.png);
+    background-image: url(../img/header-banner.png);
 }
 
 .logo {
     max-height: 58px;
+}
+
+
+.navigation {
+    margin: 0 auto;
+    padding-top: 30px;
+    width: 1200px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #4c6386;
+}
+
+
+h1 {
+    font-family: "Merienda One";
+    font-size: 85px;
+    font-weight: 400;
+}
+
+.main-banner {
+    height: 760px;
 }
