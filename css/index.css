@@ -8,9 +8,9 @@
 .container {
     width: 1200px;
     position: relative;
-    display: flex;
+     display: flex;
     justify-content: space-between;
-}
+} 
 .header-contacts {
     display: flex;
     justify-content: space-around;
@@ -36,8 +36,19 @@
     margin-top: 10px;
 }
 
-body {
+.main-banner {
     background-image: url(../img/header-banner.png);
+    background-position: center center;
+    height: 760px;
+}
+
+.banner-content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
 }
 
 .logo {
@@ -52,10 +63,11 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center center;
 }
 
 nav a {
+    width: 500px;
     text-decoration: none;
     font-size: 17px;
     color: #4c6386;
@@ -63,11 +75,243 @@ nav a {
 
 
 h1 {
+    width: 400px;
+    margin-top: 200px;
     font-family: "Merienda One";
     font-size: 85px;
     font-weight: 400;
+    line-height: 95px;
+    color: #454043;
 }
 
-.main-banner {
-    height: 760px;
+.main-banner .banner-content p {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #454043;
 }
+.promo_btn {
+    margin-top: 40px;
+}
+
+
+.promo_btn , .order_btn {
+    width: 115px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e22028;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;   
+}
+.promo_btn:hover { background: #ab2c32; }
+.promo_btn:active { background: #ab2c32; }
+
+.founder {
+    background-image: url(../img/background-owner.png);
+    background-position: center center;
+    height: 683px;
+    background-size: cover;
+}
+
+.founder-info {
+    display:block;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 85px;
+    width: 770px;
+    height: 513px;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.25);
+    padding: 30px;
+}
+
+.founder h2 {
+    margin-top: 5px;
+    font-family: "Merienda One";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #454043;
+}
+
+.founder-info img {
+    border-radius: 50%;
+}
+
+.founder h3 {
+    margin-top: 12px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(69, 64, 67);
+}
+
+.founder p {
+    margin-top: 50px;
+    font-family: "Lato";
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(108, 100, 110);
+    line-height: 29px;
+}
+
+.story-btn {
+    font-family: "Lato";
+    font-weight: 400;
+    width: 110px;
+    height: 45px;
+    border: 2px solid #e22028;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;   
+}
+
+.story-btn:hover { 
+    background: #e22028;
+    color: #fff;
+
+}
+
+.choose-your-sweets {
+    background-image: url(../img/background-sweets.png);
+    background-position: center center;
+    height: 1311px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.choosee-sweets-container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-around;
+    
+    
+
+}
+.choose-your-sweets h2 {
+    padding: 75px;
+    font-family: "Merienda One";
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #454043;
+    text-align: center;
+}
+
+
+.sweets-cards {
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 370px;
+    height: 472px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-card h4 {
+    font-family: "Merienda One";
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #454043;
+}
+
+.container-card a {
+    display: block;
+    margin-top: 5px;
+    font-family: "Lato";
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #4C6386;
+    text-align: center;
+}
+
+.custom-decoration {
+    height: 700px;
+    background-color: #fff;
+}
+.custom-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.custom-decoration h2 {
+    padding-top: 75px;
+    font-family: "Merienda One";
+    font-size: 43px;
+    font-weight: 400;
+    text-align: center;
+    color: #454043;
+}
+
+.custom-content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.custom-text {
+    display: block;
+    width: 570px;
+}
+
+.custom-decoration h3 {
+    padding-top: 75px;
+    font-family: "Merienda One";
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #454043;
+}
+
+.custom-decoration p {
+    padding-top: 20px;
+    font-family: "Lato";
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    color: #454043;
+    line-height: 28.9px;
+    text-align: left;
+}
+
+.make-order-btn {
+    margin-top: 30px;
+    width: 150px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e22028;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;   
+}
+.promo_btn:hover { background: #ab2c32; }
+.promo_btn:active { background: #ab2c32; }
