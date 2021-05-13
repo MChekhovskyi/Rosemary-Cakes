@@ -315,3 +315,79 @@ h1 {
 }
 .promo_btn:hover { background: #ab2c32; }
 .promo_btn:active { background: #ab2c32; }
+
+.follow-us {
+    height: 890px;
+    background-image: url(../img/follow-us.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.follow-us .follow-container { 
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.card-insta {
+    display: block;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 370px;
+    height: 516px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-insta h4 {
+    display: block;
+    padding-top: 10px;
+    font-family: "Merienda One";
+    font-size: 20px;
+    font-weight: 400;
+    color: #454043;
+}
+.follow-us .follow-content {
+    width: 500px;
+    height: 153px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Merienda One";
+    font-size: 20px;
+    font-weight: 400;
+    color: #454043;
+}
+
+.follow-btn {
+    margin-top: 30px;
+    width: 264px;
+    height: 50px;
+    border-width: 0;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #e22028;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;   
+    text-justify: center;
+}
+.follow-btn:hover { background: #ab2c32; }
+.follow-btn:active { background: #ab2c32; }
+
+.some {
+    color: #e22028;
+}
