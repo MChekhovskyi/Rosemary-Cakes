@@ -12,6 +12,12 @@ h2 {
     color: #454043;
 }
 
+p {
+    font-family: "Lato";
+    font-weight: 400;
+    color: #6C646E;
+    line-height: 28.9px;
+}
 .container-contacts {
     width: 1200px;
     margin: 0 auto;
@@ -83,6 +89,10 @@ nav a {
     padding-right: 15px;
 }
 
+nav a:hover {
+    color: #bbb9ba;
+}
+
 
 h1 {
     width: 400px;
@@ -121,6 +131,8 @@ h1 {
 .promo_btn:hover { background: #ab2c32; }
 .promo_btn:active { background: #ab2c32; }
 
+.order_btn:hover { background: #ab2c32; }
+.order_btn:active { background: #ab2c32; }
 
 .founder {
     background-image: url(../img/background-owner.png);
@@ -378,6 +390,7 @@ h1 {
 
 .follow-btn {
     margin-top: 30px;
+    margin-left: 120px;
     width: 264px;
     height: 50px;
     border-width: 0;
@@ -389,11 +402,19 @@ h1 {
     cursor: pointer;
     outline: none;
     text-decoration: none;
-    user-select: none;   
-    text-justify: center;
+    user-select: none;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
 }
-.follow-btn, .order-btn:hover { background: #ab2c32; }
-.follow-btn, .order-btn:active { background: #ab2c32; }
+
+
+
+.order-btn:hover { background: #ab2c32; }
+.order-btn:active { background: #ab2c32; }
+
+.follow-btn:hover { background: #ab2c32; }
+.follow-btn:active { background: #ab2c32; }
 
 .red-text {
     color: #e22028;
@@ -537,3 +558,71 @@ h1 {
     display: block;
     margin-top: 50px;
 }
+.container-btn-fillings {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more-fillings-btn {
+    margin-top: 70px;
+    font-family: "Lato";
+    font-weight: 600;
+    width: 200px;
+    height: 45px;
+    border: 2px solid #e22028;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;  
+}
+
+.wedding-cake {
+    min-height: 525px;
+    background: #fef7f0;
+}
+
+.container-wedding-cake {
+    width: 1200px;
+    padding-top: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wedding-cake-content p {
+    padding-top: 56px;
+    font-size: 17px;
+}
+
+
+.wedding-cake-content {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.wedding-cake-btn {
+    margin-top: 70px;
+    font-family: "Lato";
+    font-weight: 600;
+    width: 200px;
+    height: 45px;
+    border: 0;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    background-color: #e22028;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;  
+}
+
+.wedding-cake-btn:hover { background: #ab2c32; }
