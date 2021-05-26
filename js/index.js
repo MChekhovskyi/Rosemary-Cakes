@@ -2,28 +2,28 @@ const productsJson = `
 [
     {
         "id": "1",
-        "imgUrl": "https://res2.weblium.site/res/5cf4fa65cb00d50023da97a8/5d0cb834f0f46f0024d97027_optimized_500_c500x522-0x0.webp",
+        "imgUrl": "img/insta-card-1.png"
     },
     {
         "id": "2",
-        "imgUrl": "img/insta-card-2.png",
+        "imgUrl": "img/insta-card-1.png"
     },
     {
         "id": "3",
-        "imgUrl": "img/insta-card-2.png",
+        "imgUrl": "img/insta-card-1.png"
     },
     {
         "id": "4",
-        "imgUrl": "img/insta-card-2.png",
+        "imgUrl": "img/insta-card-1.png"
     }
 ]`;
 
 function renderProducts(products) {
-    const productsContainer = document.querySelector('.insta-feed');
+    const productsContainer = document.querySelector('.insta-img');
     let html = '';
     for (const product of products) {
-        html += `<img src="${product.imgUrl}" alt="${product.id}">
-                <h2>Hello</h2>`;
+        html += `<img src="${product.imgUrl}" alt="${product.id}" width="240" height="auto">
+                `;
     }
     productsContainer.innerHTML = html;
 }

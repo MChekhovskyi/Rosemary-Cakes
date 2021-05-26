@@ -592,7 +592,7 @@ h1 {
     align-content: space-between;
 }
 
-.wedding-cake-btn {
+.wedding-cake-btn, .submit-btn {
     margin-top: 70px;
     font-family: "Lato";
     font-weight: 600;
@@ -610,8 +610,9 @@ h1 {
 }
 
 .wedding-cake-btn:hover { background: #ab2c32; }
+.submit-btn:hover { background: #ab2c32; }
 
-.insta-cards, .insta-feed {
+.insta-cards {
     min-height: 873px;
     background-image: url(../img/background-insta.png);
     background-position: center center;
@@ -638,6 +639,44 @@ h1 {
     margin: 70px auto;
 }
 
+.order-fresh {
+    min-height: 790px;
+    background-image: url(../img/background-order-fresh.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-form {
+    display: block;
+    width: 470px;
+    height: 620px;
+    background-color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+
+.input-data {
+    width: 420px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 7px 25px 25px 25px;
+    font-size: 16px;
+    border-color: #6c646e;
+    background-color: rgba(69, 64, 67, 0.12);
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    user-select: none;  
+    padding: 12px 26px;
+}
+
+.submit-btn {
+    width: 420px;
+    height: 45px;
+}
 
 
 
