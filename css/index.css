@@ -780,5 +780,41 @@ h1 {
     .container {
         max-width: none;
     }
+
+    .three {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        transition: transform .3s;
+        transform: translateX(0);
+      }
+    .sweets-cards {
+        margin: 0 50px;
+    }
+    .three-0 {
+        transition: transform .3s;
+        transform: translateX(0);
+      }
+      
+      .three-1 {
+        transition: transform .3s;
+        transform: translateX(-350px);
+      }
+      
+      .three-2 {
+        transition: transform .3s;
+        transform: translateX(-700px);
+      }
+      
+      .three-3 {
+        transition: transform .3s;
+        transform: translateX(-1050px);
+      }
+
+      .three-4 {
+        transition: transform .3s;
+        transform: translateX(-1400px);
+      }
     
 } 
