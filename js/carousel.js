@@ -1,6 +1,6 @@
 if (document.documentElement.clientWidth < 767) {
-    let btn = document.querySelectorAll('p'),
-    three = document.querySelectorAll('.three')[0];
+    let btn = document.querySelectorAll('.sweets-cards');
+    let three = document.querySelectorAll('.three')[0];
 
     let count = 0;
     startSlide(1000);

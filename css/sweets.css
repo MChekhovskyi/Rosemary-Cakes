@@ -60,6 +60,9 @@
     .container {
         max-width: 970px;
     }
+    .sweets-cards img {
+        height: 262px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -70,13 +73,16 @@
         grid-template-columns: repeat(2, 45%);
         grid-template-rows: repeat(3, 1fr);
     }
+    .sweets-cards img {
+        height: 305px;
+    }
 
 
 }   
 
 @media (max-width: 767px) {
     .container {
-        max-width: none;
+        max-width: 580px;
     }
     .choosee-sweets-container {
         grid-template-columns: 20% 60% 20%;
@@ -85,6 +91,31 @@
 
     .sweets-cards {
         grid-column: 2 / 3;
+        margin: 10px auto;
+    }
+
+    .sweets-cards img {
+        height: 300px;
+    }
+    
+} 
+
+@media (max-width: 500px) {
+    .container {
+        max-width: none;
+    }
+    .choosee-sweets-container {
+        grid-template-columns: 10% 80% 10%;
+        grid-template-rows: repeat(6, 1fr); 
+    }
+
+    .sweets-cards {
+        grid-column: 2 / 3;
+        margin: 15px auto;
+    }
+
+    .sweets-cards img {
+        height: 300px;
     }
     
 } 

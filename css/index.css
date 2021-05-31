@@ -503,10 +503,7 @@ h1 {
     background-color: #fff;
     box-shadow: 0 4px 38px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-/*     display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center; */
+
 }
 
 .fillings-cards h3 {
